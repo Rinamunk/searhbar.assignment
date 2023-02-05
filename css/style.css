@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  font-family: "Helvetica", sans-serif;
+  }
+  .container {
+  padding: 100px 25%;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  font-size: 1.2em;
+  color: #202C39;
+  }
+.form-container{
+background-color: lightcyan;
+}
+.input {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  /* When the input field gets focus, change its width to 100% */
+  .input:focus {
+    width: 100%;
+  }
+h1{
+    color:blue;
+}
+#list {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  display: none;
+  }
+  .list-item {
+  display: flex;
+  text-decoration: none;
+  padding: 5px 20px;
+  color: black;
+  }
+  .list-item:hover {
+  background-color: lightgrey;
+  }
